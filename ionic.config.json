@@ -1,0 +1,7 @@
+{
+  "name": "carApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
