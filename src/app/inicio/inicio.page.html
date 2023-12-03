@@ -1,0 +1,48 @@
+<ion-header [translucent]="true" class="header-style">
+  <ion-toolbar>
+    <ion-title class="title-style">¡Descubre tu Auto Ideal!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="content-style">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large" class="title-style">¡Descubre tu Auto Ideal!</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="ion-padding">
+    <h2 class="subtitle-style">Encuentra el auto perfecto para tu estilo de vida</h2>
+    <p class="description-style">Selecciona tus preferencias y recibe recomendaciones personalizadas de modelos de
+      autos.</p>
+
+    <!-- Contenedor para la imagen -->
+    <div class="image-container">
+      <ion-img [src]="currentImage" alt="Car Image"></ion-img>
+    </div>
+
+    <!-- Botón con icono de búsqueda -->
+    <ion-button expand="full" (click)="irASeleccion()" class="start-button">
+      <ion-icon name="search-outline" slot="start"></ion-icon>
+      Iniciar Búsqueda
+    </ion-button>
+
+    <!-- Categorías Populares -->
+<h2 class="category-title">Categorías Populares:</h2>
+<ion-grid>
+  <ion-row>
+    <ion-col size="6" *ngFor="let category of popularCategories">
+      <ion-card>
+        <ion-img [src]="category.image" alt="{{ category.title }}"></ion-img>
+        <ion-card-header>
+          <ion-card-title>{{ category.title }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ category.description }}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</div>
+</ion-content>

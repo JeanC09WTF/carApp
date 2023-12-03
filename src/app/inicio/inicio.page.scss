@@ -1,0 +1,19 @@
+.image-container {
+    width: 100%;
+    height: 200px;
+    /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-img {
+    width: 100%;
+    height: 100%;
+    /* Ajusta según tus necesidades */
+    object-fit: cover;
+    /* Ajusta el modo de ajuste según tus necesidades */
+    transition: transform 0.5s ease-in-out;
+}
