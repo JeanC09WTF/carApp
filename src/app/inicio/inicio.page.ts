@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-inicio',
@@ -43,14 +45,14 @@ export class InicioPage implements OnInit {
   ];
 
 
-  constructor(private navCtrl: NavController) { }
+  constructor(private navCtrl: NavController, private router: Router) { }
 
   ngOnInit() {
     this.startImageTransition();
   }
 
   irASeleccion() {
-    this.navCtrl.navigateForward('/seleccion');
+    this.router.navigate(['/busqueda']);
   }
 
   startImageTransition() {
