@@ -1,0 +1,26 @@
+.page {
+    background-color: #000; // Fondo oscuro
+    color: #fff; // Texto blanco
+}
+
+.header {
+    background-color: #333; // Color de fondo del encabezado
+}
+
+.content {
+    text-align: center; // Centrar el contenido
+    padding: 20px; // Agregar un espacio interno al contenido
+}
+
+.welcome-message {
+    max-width: 400px; // Ancho máximo del mensaje de bienvenida
+    margin: 0 auto; // Centrar el mensaje en la pantalla
+}
+
+.welcome-message h1 {
+    font-size: 1.5em; // Tamaño del título
+}
+
+.welcome-message p {
+    margin-bottom: 15px; // Espaciado entre párrafos
+}
