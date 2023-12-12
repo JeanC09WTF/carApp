@@ -1,0 +1,76 @@
+{
+  "autos": [
+     {
+        "nombre": "Toyota RAV4 Hybrid", 
+        "TipoAuto": "suv",
+        "usoDiario": "ambos",
+        "presupuesto": "Palto",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_suv"
+      },
+      {
+        "nombre": "Honda CR-V Hybrid", 
+        "TipoAuto": "suv",
+        "usoDiario": "ambos",
+        "presupuesto": "Palto",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_suv"
+      },
+      {
+        "nombre": "Honda Accord", 
+        "TipoAuto": "sedan",
+        "usoDiario": "ambos",
+        "presupuesto": "Pbajo",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_sedan"
+      },
+      {
+        "nombre": "Toyota Prius", 
+        "TipoAuto": "sedan",
+        "usoDiario": "ambos",
+        "presupuesto": "Pbajo",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_sedan"
+      },
+      {
+        "nombre": "Honda Fiat", 
+        "TipoAuto": "hatchback",
+        "usoDiario": "ambos",
+        "presupuesto": "Pmedio",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_hatchback"
+      },
+      {
+        "nombre": "Toyota Yaris", 
+        "TipoAuto": "sedan",
+        "usoDiario": "ambos",
+        "presupuesto": "Pmedio",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_sedan"
+      },
+      {
+        "nombre": "Subaru Forester", 
+        "TipoAuto": "suv",
+        "usoDiario": "ambos",
+        "presupuesto": "Pmedio",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_suv"
+      },
+      {
+        "nombre": "Volvo CX60", 
+        "TipoAuto": "suv",
+        "usoDiario": "ambos",
+        "presupuesto": "Pmedio",
+        "caracteristicas": "EfiDeCom",
+        "descripcion": "Autos de cuatro puertas con espacio para pasajeros y un maletero.",
+        "imagen": "url_imagen_suv"
+      }
+    ]
+} 
