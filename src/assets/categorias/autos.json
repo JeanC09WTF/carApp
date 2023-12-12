@@ -1,0 +1,72 @@
+{
+    "Autos Tecnologicos": [
+        {
+            "nombre": "Tesla Model3",
+            "imagen": "assets/img2/tec1.jpg",
+            "descripcion": "Un automóvil eléctrico con tecnología de vanguardia y un rendimiento emocionante"
+        },
+        {
+            "nombre": "BMW i8",
+            "imagen": "assets/img2/tec2.jpg",
+            "descripcion": "Es un automóvil deportivo híbrido enchufable producido por el fabricante alemán BMW, El i8 combina un motor de combustión interna tradicional con un motor eléctrico y una batería de iones de litio, lo que resulta en un tren motriz híbrido."
+        },
+        {
+            "nombre": "Audi e-tron",
+            "imagen": "assets/img2/tec3.jpg",
+            "descripcion": "Es un vehículo totalmente eléctrico que se lanzó como el primer modelo de la línea e-tron. Ofrece un diseño SUV con tracción en las cuatro ruedas y una batería de iones de litio que alimenta dos motores eléctricos, uno en cada eje. Proporciona un rendimiento impresionante y una autonomía eléctrica adecuada para el uso diario."
+        }
+    ],
+    "Familiares": [
+        {
+            "nombre": "Honda Odyssey",
+            "imagen": "assets/img2/auto1.jpg",
+            "descripcion": "La Honda Odyssey se destaca por su diseño espacioso y funcional, con capacidad para transportar cómodamente a varias personas y ofrecer un amplio espacio de carga. Está diseñada para ser una opción familiar y versátil."
+        },
+        {
+            "nombre": "Toyota Sienna",
+            "imagen": "assets/img2/auto2.jpg",
+            "descripcion": " Es conocida por su diseño espacioso y su capacidad para transportar cómodamente a varias personas. Diseñada principalmente como una minivan familiar, se esfuerza por ofrecer un espacio interior flexible y versátil."
+        },
+        {
+            "nombre": "Volkswagen Atlas",
+            "imagen": "assets/img2/auto3.jpg",
+            "descripcion": "Está diseñado para ofrecer un ambiente cómodo y funcional. Puede incluir características como un sistema de infoentretenimiento con pantalla táctil, conectividad Bluetooth, opciones de asientos ajustables y sistemas de seguridad avanzados, según la configuración y el nivel de equipamiento."
+        }
+       
+    ],
+    "Para aventureros": [
+        {
+            "nombre": "Jeep Wrangler",
+            "imagen": "assets/img2/ave1.jpg",
+            "descripcion": "Conocido por su diseño robusto y su capacidad todo terreno. Ha mantenido un aspecto distintivo y cuadrado a lo largo de los años, y su diseño es heredero directo del Jeep original utilizado durante la Segunda Guerra Mundial."
+        },
+        {
+            "nombre": "Toyota Land Cruiser",
+            "imagen": "assets/img2/ave2.jpg",
+            "descripcion": "Es una línea de vehículos todoterreno fabricada por el fabricante japonés Toyota. Este vehículo ha ganado una reputación mundial por su durabilidad, capacidad todoterreno y fiabilidad."
+        },
+        {
+            "nombre": "Subaru Outback",
+            "imagen": "assets/img2/ave3.jpg",
+            "descripcion": "Generalmente ofrece un interior espacioso con asientos cómodos y opciones de configuración para transportar carga. El diseño de carrocería tipo crossover permite una altura de conducción más elevada, proporcionando una mejor visibilidad en comparación con los automóviles tradicionales."
+        }
+    ],
+    "Ahorrativos": [
+        {
+            "nombre": "Toyota Prius",
+            "imagen": "assets/img2/com.jpg",
+            "descripcion": "Prius es uno de los pioneros en la tecnología híbrida. Utiliza un sistema de propulsión híbrido que combina un motor de gasolina con uno o más motores eléctricos. Esto permite al vehículo funcionar con electricidad a bajas velocidades o durante la aceleración, y con gasolina a velocidades más altas"
+        },
+        {
+            "nombre": "Chevrolet Bolt",
+            "imagen": "assets/img2/com12.jpg",
+            "descripcion": "Automóvil completamente eléctrico, lo que significa que no cuenta con un motor de combustión interna. En cambio, se impulsa mediante un motor eléctrico alimentado por baterías recargables."
+        },
+        {
+            "nombre": "Hyundai Loniq",
+            "imagen": "assets/img2/com13.jpg",
+            "descripcion": "La variante híbrida combina un motor de gasolina con un motor eléctrico alimentado por una batería. Puede funcionar en modo totalmente eléctrico a bajas velocidades y utiliza el motor de gasolina en situaciones de mayor demanda de potencia."
+        }
+    ]
+   
+}

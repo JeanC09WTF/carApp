@@ -1,0 +1,13 @@
+<ion-content [fullscreen]="true" class="content-style ion-center">
+  <ion-list class="center-content ion-col-12">
+    <ion-item *ngFor="let auto of autos" class="center-item">
+      <ion-thumbnail slot="start" class="thumbnail">
+        <ion-img [src]="auto.imagen" alt="{{ auto.nombre }}"></ion-img>
+      </ion-thumbnail>
+      <ion-label class="item-label ion-text-center">
+        <h2>{{ auto.nombre }}</h2>
+        <p class="description ion-text-wrap">{{ auto.descripcion }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

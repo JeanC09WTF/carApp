@@ -1,7 +1,8 @@
+// app/inicio/inicio.component.ts
+
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
-
 
 @Component({
   selector: 'app-inicio',
@@ -45,16 +46,19 @@ export class InicioPage implements OnInit {
     // Agrega más categorías según sea necesario
   ];
 
-
   constructor(private navCtrl: NavController, private router: Router) { }
 
   ngOnInit() {
-    console.log("token: ", this.token)
+    console.log("token: ", this.token);
     this.startImageTransition();
   }
 
   irASeleccion() {
     this.router.navigate(['/busqueda']);
+  }
+
+  irADetalles(categoria: string) {
+    this.router.navigate(['/detalle',  categoria]);
   }
 
   startImageTransition() {

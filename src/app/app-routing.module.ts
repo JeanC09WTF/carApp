@@ -4,12 +4,12 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'registrarse',
     pathMatch: 'full'
   },
   {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+    path: 'registrarse',
+    loadChildren: () => import('./registrarse/registrarse.module').then(m => m.RegistrarsePageModule)
   },
   {
     path: 'inicio',
@@ -18,13 +18,18 @@ const routes: Routes = [
   {
     path: 'nosotros',
     loadChildren: () => import('./nosotros/nosotros.module').then( m => m.NosotrosPageModule)
-  },  {
+  },
+  {
     path: 'busqueda',
     loadChildren: () => import('./busqueda/busqueda.module').then( m => m.BusquedaPageModule)
   },
   {
     path: 'registrarse',
     loadChildren: () => import('./registrarse/registrarse.module').then( m => m.RegistrarsePageModule)
+  },
+  {
+    path: 'detalle/:categoria',
+    loadChildren: () => import('./detalle/detalle.module').then( m => m.DetallePageModule)
   }
 
 ];
