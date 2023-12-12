@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./busqueda.page.scss'],
 })
 export class BusquedaPage implements OnInit {
+recomendar() {
+
   
+  
+throw new Error('Method not implemented.');
+}
+
+  
+
 TipoAuto: any;
 usoDiario: any;
 presupuesto: any;
