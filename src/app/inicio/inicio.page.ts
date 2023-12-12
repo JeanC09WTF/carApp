@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./inicio.page.scss'],
 })
 export class InicioPage implements OnInit {
+  token = localStorage.getItem("token");
   currentImageIndex: number = 0;
   images: string[] = [
     'assets/img/car.jpg',
@@ -48,6 +49,7 @@ export class InicioPage implements OnInit {
   constructor(private navCtrl: NavController, private router: Router) { }
 
   ngOnInit() {
+    console.log("token: ", this.token)
     this.startImageTransition();
   }
 

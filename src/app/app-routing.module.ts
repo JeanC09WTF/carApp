@@ -21,6 +21,10 @@ const routes: Routes = [
   },  {
     path: 'busqueda',
     loadChildren: () => import('./busqueda/busqueda.module').then( m => m.BusquedaPageModule)
+  },
+  {
+    path: 'registrarse',
+    loadChildren: () => import('./registrarse/registrarse.module').then( m => m.RegistrarsePageModule)
   }
 
 ];
