@@ -6,6 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./busqueda.page.scss'],
 })
 export class BusquedaPage implements OnInit {
+  
+TipoAuto: any;
+usoDiario: any;
+presupuesto: any;
+caracteristica: any;
+
+recomendacion: any;
+
+
+
 
   constructor() { }
 
