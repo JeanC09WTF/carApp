@@ -10,4 +10,54 @@
       <ion-title size="large">busqueda</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <!--Tipos de auto -Tipos de Uso- Presupuesto- Caracteristica -->
+
+  <ion-item>
+    <ion-label>Tipos de Autos: </ion-label>
+    <ion-select [(ngModel)]="TipoAuto">
+      <ion-select-option value="sedan">Sedán</ion-select-option>
+      <ion-select-option value="suv">SUV</ion-select-option>
+      <ion-select-option value="hatchback">Hatchback</ion-select-option>
+      <!-- Otras opciones -->
+    </ion-select>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label>Uso Diario</ion-label>
+    <ion-select [(ngModel)]="usoDiario">
+      <ion-select-option value="ciudad">Ciudad</ion-select-option>
+      <ion-select-option value="vlargos">Viajes largos diario</ion-select-option>
+      <ion-select-option value="ambos">Ambos</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Presupuesto</ion-label>
+    <ion-select [(ngModel)]="presupuesto">
+      <ion-select-option value="Pbajo">Más de 10K</ion-select-option>
+      <ion-select-option value="Pmedio">Más de 20k</ion-select-option>
+      <ion-select-option value="Palto">Más de 30k</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Característica</ion-label>
+    <ion-select [(ngModel)]="caracteristica">
+      <ion-select-option value="ConsDeCom">Consumo de combustible</ion-select-option>
+      <ion-select-option value="Tec">Tecnología y seguridad</ion-select-option>
+      <ion-select-option value="EspaYcom">Espacio y comodidad</ion-select-option>
+    </ion-select>
+  </ion-item>
+  
+  <!-- Agrega más selectores para otras características -->
+  
+  <!-- Esta parte no va todavia -->
+  <!-- -<ion-button (click)="recomendar()">recomendar</ion-button>
+  <!-- Aquí se mostrará la recomendación -->
+<ion-item *ngIf="recomendacion !== ''">
+  <ion-label>Recomendación:</ion-label>
+  <ion-text>{{ recomendacion }}</ion-text>
+</ion-item>
+  
 </ion-content>
