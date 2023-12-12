@@ -1,3 +1,10 @@
+// Crear una interfaz para la estructura del JSON
+interface CategoriaAutos {
+  nombre: string;
+  imagen: string;
+  descripcion: string;
+}
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
@@ -9,7 +16,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DetallePage implements OnInit {
   categoria!: string;
-  autos: any[] = [];
+  autos: CategoriaAutos[] = [];
 
   constructor(private route: ActivatedRoute, private http: HttpClient) { }
 
@@ -27,7 +34,8 @@ export class DetallePage implements OnInit {
       (data: any) => {
         // Verifica si la categoría existe en el JSON antes de acceder a ella
         if (data[this.categoria]) {
-          this.autos = data[this.categoria];
+          // Utilizar la interfaz para tipar los datos
+          this.autos = data[this.categoria] as CategoriaAutos[];
         } else {
           console.error(`La categoría '${this.categoria}' no existe en el JSON.`);
           // Puedes redirigir a una página de error o manejarlo según tus necesidades

@@ -1,13 +1,14 @@
-<ion-content [fullscreen]="true" class="content-style ion-center">
-  <ion-list class="center-content ion-col-12">
-    <ion-item *ngFor="let auto of autos" class="center-item">
-      <ion-thumbnail slot="start" class="thumbnail">
-        <ion-img [src]="auto.imagen" alt="{{ auto.nombre }}"></ion-img>
-      </ion-thumbnail>
-      <ion-label class="item-label ion-text-center">
-        <h2>{{ auto.nombre }}</h2>
-        <p class="description ion-text-wrap">{{ auto.descripcion }}</p>
-      </ion-label>
-    </ion-item>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list class="ion-text-center">
+    <ion-card *ngFor="let auto of autos">
+      <!-- Muestra las imagenes, nombre y descripcion en orden -->
+      <ion-card-header>
+        <ion-card-title>{{ auto.nombre }}</ion-card-title>
+        <ion-img class="detalle-image" [src]="auto.imagen" alt="{{ auto.nombre }}"></ion-img>
+      </ion-card-header>
+      <ion-card-content class="text-box">
+        <p>{{ auto.descripcion }}</p>
+      </ion-card-content>
+    </ion-card>
   </ion-list>
 </ion-content>
